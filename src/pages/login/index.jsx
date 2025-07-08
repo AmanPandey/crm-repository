@@ -16,10 +16,10 @@ const Login = () => {
 
   // Mock credentials for different user types
   const mockCredentials = [
-    { email: 'sales.rep@salesflow.com', password: 'SalesRep123!', role: 'Sales Representative' },
-    { email: 'sales.manager@salesflow.com', password: 'Manager456!', role: 'Sales Manager' },
-    { email: 'sales.director@salesflow.com', password: 'Director789!', role: 'Sales Director' },
-    { email: 'admin@salesflow.com', password: 'Admin2024!', role: 'System Administrator' }
+    { email: 'sales.rep@8-insights.com', password: 'SalesRep123!', role: 'Sales Representative' },
+    { email: 'sales.manager@8-insights.com', password: 'Manager456!', role: 'Sales Manager' },
+    { email: 'sales.director@8-insights.com', password: 'Director789!', role: 'Sales Director' },
+    { email: 'admin@8-insights.com', password: 'Admin2024!', role: 'System Administrator' }
   ];
 
   const validateForm = () => {
@@ -112,7 +112,7 @@ const Login = () => {
               <path d="M9 21V13H15V21" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </div>
-          <h1 className="text-3xl font-bold text-text-primary font-heading mb-2">SalesFlow Pro</h1>
+          <h1 className="text-3xl font-bold text-text-primary font-heading mb-2">8 Insights || Sales</h1>
           <p className="text-text-secondary">Sign in to your account</p>
         </div>
 
@@ -246,13 +246,13 @@ const Login = () => {
           <div className="mt-6 p-4 bg-primary-50 rounded-lg border border-primary-100">
             <h3 className="text-sm font-medium text-primary mb-2 flex items-center space-x-2">
               <Icon name="Info" size={16} />
-              <span>Demo Credentials</span>
+              <span>Credentials</span>
             </h3>
             <div className="text-xs text-primary space-y-1">
-              <p><strong>Sales Rep:</strong> sales.rep@salesflow.com / SalesRep123!</p>
-              <p><strong>Manager:</strong> sales.manager@salesflow.com / Manager456!</p>
-              <p><strong>Director:</strong> sales.director@salesflow.com / Director789!</p>
-              <p><strong>Admin:</strong> admin@salesflow.com / Admin2024!</p>
+              <p><strong>Sales Rep:</strong> sales.rep@8-insights.com / SalesRep123!</p>
+              <p><strong>Manager:</strong> sales.manager@8-insights.com / Manager456!</p>
+              <p><strong>Director:</strong> sales.director@8-insights.com / Director789!</p>
+              <p><strong>Admin:</strong> admin@8-insights.com / Admin2024!</p>
             </div>
           </div>
         </div>
