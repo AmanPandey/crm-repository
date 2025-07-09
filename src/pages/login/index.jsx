@@ -112,7 +112,7 @@ const Login = () => {
               <path d="M9 21V13H15V21" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </div>
-          <h1 className="text-3xl font-bold text-text-primary font-heading mb-2">8 Insights || Sales</h1>
+          <h1 className="text-3xl font-bold text-text-primary font-heading mb-2">8 Insights CRM</h1>
           <p className="text-text-secondary">Sign in to your account</p>
         </div>
 
